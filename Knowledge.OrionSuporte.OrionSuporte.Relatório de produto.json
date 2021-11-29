@@ -1,0 +1,53 @@
+{
+  "id": "0df1215a-d9f5-4530-ae3b-2919baeadb33",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.Relatório de produto",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para gerar um relatório de produtos monofásicos acesse o módulo de Controle Fiscal, vá em Relatórios, Relatórios de Pis e Cofins, Saída de Produtos e Serviços sem Contribuição (Monofásico).\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Relatório de produtos monofásicos, Relatorio de produtos monofasicos, relatório de produtos monofásicos, relatorio de produtos monofasicos, Monofásicos, monofásicos, Monofasicos, monofasicos, Relatório monofásico, Relatorio monofasico, relatório monofásico, relatorio monofasico, Produtos monofásicos, Produtos monofasicos, produtos monofásicos, produtos monofasicos",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d895e1c8-878e-4727-b2e3-0ffd5025d5d1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "e0f2c574-f763-4f2d-9374-129c4de594ff",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.Rejeição: uso denega",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Esta mensagem se dá devido ao fato do destinatário da nota fiscal estar com pendência com a Receita Federal.  Neste caso a nota ficará com este status mesmo, pois não há como atualizar essa informação. O ideal é informar ao destinatário sobre a situação para que ele verifique diretamente com a Receita Federal.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Rejeição: uso denegado: irregularidade do destinatario.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bcc27af-17ee-4429-b2e7-bb4392c012d5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

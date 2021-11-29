@@ -1,0 +1,53 @@
+{
+  "id": "14a0dcfc-0185-45ee-a674-65754a38b6ea",
+  "name": "Resolvido",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Fico feliz por ter conseguido te atender de forma mais rápida. Caso necessite de algo mais pode me chamar por aqui."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Resolvido",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e45a440-5a30-4ded-8b7f-7853d498fdb0",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "190d115c-2997-4c64-9469-831a3601c45d",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_872",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este problema desligue a ECF e religue-a. Em seguida pressione o botão seleção 5x, espere alguns segundos, pressione o botão seleção mais uma vez e por fim o botão confirma.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro - MENU FISCAL (F12)\n---------------------------\nAGUARDANDO ACERTO DO RELÓGIO OU DESBLOQUEIO PELO TECLADO\nComando não executado.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f7b47f0-1ff0-43e4-821c-23bf8770386e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

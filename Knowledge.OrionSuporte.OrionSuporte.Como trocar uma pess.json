@@ -1,0 +1,53 @@
+{
+  "id": "905bae02-479a-4e80-a986-1aefb3bb9d8a",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.Como trocar uma pess",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para realizar esta troca acesse o módulo de Controle de Pessoas, vá em Pessoas >> Todas as Pessoas. Em seguida clique em Cadastro >>  Editar tipo fiscal. Confirme a mudança clicando em Sim e insira as novas informações.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como trocar uma pessoa física para pessoa jurídica",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ac50924-df85-46df-b987-917209e14714",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

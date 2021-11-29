@@ -1,0 +1,53 @@
+{
+  "id": "051f9a5b-8a26-4f4e-b285-6948dde57ec1",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_820",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este problema acesse o módulo de Notas Fiscais - Configurações. Navegue até a aba Documentos Eletrônicos e na aba NF-e desmarque o parâmetro Gerar NF-e com as últimas alterações de layout. Após isso tente reenviar a NF-e para a Sefaz.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nO arquivo XML gerado não foi validado.\nErro na validação XML: \n - O elemento 'ide' no espaço para nome 'http://www.portalfiscal.inf.br/nfe' apresenta elemento filho 'indIntermed' no espaço para nome 'http://www.portalfiscal.inf.br/nfe' inválido. Lista de possíveis elementos esperados: 'procEmi' no espaço para nome 'http://www.portalfiscal.inf.br/nfe'.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "78a10fc0-3f87-49a1-8527-2b64f329aa02",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

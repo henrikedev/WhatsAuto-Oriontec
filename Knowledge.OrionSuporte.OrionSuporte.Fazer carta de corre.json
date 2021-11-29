@@ -1,0 +1,53 @@
+{
+  "id": "076bc55d-9022-4bbd-b740-43507949da76",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.Fazer carta de corre",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para emitir uma carta de correção acesse o módulo de Notas Fiscais e localize a nota fiscal em questão que precisa da correção e abra-a. Em seguida navegue até a aba Outras Inf. e abaixo clique em CC-e e insira a CC-e com as correções que precisa fazer. Lembrando que nem tudo dá pra se corrigir em uma nota fiscal através de CC-e.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Fazer carta de correção fazer cce emitir carta de correção emitir cce",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2a403d71-f8c8-42c6-8093-25948e3cf542",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

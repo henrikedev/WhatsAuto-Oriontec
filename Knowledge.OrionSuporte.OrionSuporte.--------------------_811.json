@@ -1,0 +1,53 @@
+{
+  "id": "62dc43d1-584e-4cc7-b9d6-d4856aaf600a",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_811",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro estorne e desefetive a nota fiscal em questão. Em seguida vá até o módulo Controle Fiscal e em Livros Fiscais acesse Registro de Entrada e gere o livro de registros de entrada novamente com o período que contempla a data de movimento da nota fiscal a qual deseja excluir do sistema.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nErro ao tentar apagar a nota em foco:\nEsta nota fiscal foi lançada no livro de entrada.\nÉ necessário excluí-la do livro de entrada antes de apagá-la.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2acadadb-fe92-448d-b0ac-82fe92d1b016",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

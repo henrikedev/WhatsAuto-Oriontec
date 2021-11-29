@@ -1,0 +1,65 @@
+{
+  "id": "6fdd0dcd-9535-4729-ac31-19ea79397a54",
+  "name": "Não resolvido",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ok, irei te atender já já."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Não resolveu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "063d91c8-cf5d-4280-9802-6816eea61c4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Não resolvido",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "161e7566-579b-4344-9607-3034301df309",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "08a51aa2-95f7-43d9-b35f-62b459c429f1",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_790",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir esse erro verifique se existe o cadastro do fornecedor no módulo Controle de Pessoas e, caso exista, se as informações do Fornecedor estão compatíveis com as da nota fiscal que está sendo importada. Este erro ocorre geralmente quando não há o cadastro do fornecedor no módulo de Controle de Pessoas ou quando alguma informação como, por exemplo, o CNPJ que está no cadastro é diferente do CNPJ que está na nota fiscal. \n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nImportação abortada. \nO emitente no arquivo está diferente do emitente selecionado pelo usuário.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bfa4afd5-5ab9-4d1b-a10e-0aba9ed94c41",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

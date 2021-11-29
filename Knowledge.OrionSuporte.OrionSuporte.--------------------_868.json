@@ -1,0 +1,53 @@
+{
+  "id": "3f6a3129-f75f-480f-8c76-69341bb27efd",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_868",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro você precisa clicar na setinha azul apontada para baixo para fazer novamente o download do arquivo XML. Em seguida basta importá-lo novamente.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nAtenção\n---------------------------\nNão foi encontrada nenhuma nota fiscal com o respectivo  número do DANFE.\nVerifique na interface de configurações se o caminho do \ndiretório de XML de terceiros está correto e se o arquivo XML existe.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ceeaf159-3bdc-4311-b5bb-549f62354802",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
