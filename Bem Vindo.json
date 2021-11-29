@@ -1,0 +1,129 @@
+{
+  "id": "63e17c70-fbcc-45a9-876c-9ee04329488d",
+  "name": "Bem Vindo",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Olá! Estou testando uma nova modalidade de atendimento via WhatsApp pensando em fornecer uma resolução mais rápida aos problemas mais simples. Para isso peço que você copie e cole aqui a mensagem de erro que o sistema está apresentando ou digite parte dela para que eu possa sugerir algumas soluções. Caso não seja relacionado a nenhuma mensagem de erro no sistema digite palavras-chave como, por exemplo, \"Relatórios de produtos monofásicos\" ou \"Nota de devolução de compra\". Caso o assunto não seja relacionado a algum erro no sistema responda com o número 1 que irei interromper as respostas automáticas e te responder."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Olá",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "807cefa7-a93a-4bfd-a97f-d17388fb92db",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Oi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2582b6be-c7b4-4474-920e-de4b8190338d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Bom dia",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9008c19f-4b03-4893-ac97-43c859a40477",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Boa tarde",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "7a751165-8633-411b-92bf-085bcdc174a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Opa",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "88acc6d8-cf17-406d-9a0a-3d476c6a40df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Ei",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "122b7b1b-aa48-466c-a05f-6b993f3da1b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Henrique",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be22b3fc-3d92-4bd3-a53c-387c0fed8ef4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
