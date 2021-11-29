@@ -1,0 +1,53 @@
+{
+  "id": "bda2976f-aae5-490d-a3f7-19bb8c92b3bd",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_397",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Este erro ocorre devido ao fato de o usuário que está tentando fazer esta alteração não possuir permissão para tal no módulo de Controle de Usuários. Procure algum colaborador da empresa que possua o perfil de Administrador do sistema para fazer a alteração.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nErro ao gravar o processamento de Nota Fiscal no banco de dados.\nO usuário identificado no sistema não tem permissão para alterar a data de trabalho/movimento.\nInforme no campo data de movimento a data utilizada no login.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aad83576-0f16-4baf-8a38-51dd56a07643",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

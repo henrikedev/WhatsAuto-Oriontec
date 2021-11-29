@@ -1,0 +1,53 @@
+{
+  "id": "dc031cbe-2588-4ca0-9430-4cef301bcc82",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro confira se o NCM do produto que aparece com erro no relatório está correto. Caso não esteja corrija-o no cadastro de produtos. Caso esteja desmarque a opção Produtos sem NCM associado na tela de importação de notas fiscais.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nImportação abortada. \nErro ao atualizar as informações de NCM no cadastro do produto.\nAssertion failure\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df0858c4-82e1-40ab-a703-9ef4b8010525",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

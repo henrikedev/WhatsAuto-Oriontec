@@ -1,0 +1,53 @@
+{
+  "id": "da98bc06-3e64-4f31-b4bc-dfb19ca4ca97",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_239",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para resolver este problema será necessário cadastrar o CFOP inexistente no sistema. Para isso acesse o módulo de Notas Fiscais e vá até Anexos >> Cadastro de CFOP. Caso tenha dúvidas sobre quais informações cadastrar consulte sua contabilidade.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nNão existe CFOP cadastrado com este código: 5.655.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f85076a2-ad86-43aa-ad48-5bf0f099944d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

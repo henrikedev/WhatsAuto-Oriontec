@@ -1,0 +1,53 @@
+{
+  "id": "3b1af15b-2215-45e1-950b-e1641a11f815",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_53",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Este erro está sendo apresentado devido a falhas no servidor da Sefaz. É necessário aguardar a normalização para que o sistema consiga manifestar o documento.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nAtenção\n---------------------------\nErro ao manifestar documento.\nCódigo Erro: 296\nMensagem: Rejeicao: Certificado Assinatura erro no acesso a LCR.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b0f4a8d-30dc-4429-9919-8e711f010524",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

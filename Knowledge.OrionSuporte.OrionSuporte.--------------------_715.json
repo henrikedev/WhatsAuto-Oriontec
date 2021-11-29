@@ -1,0 +1,53 @@
+{
+  "id": "bf9ea3e4-63a1-46e5-bf6c-978b60c362fd",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_715",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro navegue até o cabeçalho da nota fiscal e altere o campo Regime Tributário para um campo diferente do que está e clique em Aplicar. Em seguida volte a informação para a mesma que estava antes da mudança e clique em Aplicar novamente. Agora navegue até a aba Produtos, selecione um produto e clique em Editar, vá na aba Tributos e confira se habilitou o campo Cód. Sit. da Operação em Simples Nacional. Caso sim agora basta verificar com sua contabilidade qual código utilizar nesse campo e reenviar a nota.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nEsta nota fiscal não pode ser processada porque existem \nprodutos com os campos \"Cód. Sit. da Operação\" e \"Alíquota\",\nrelativos ao \"Simples Nacional\", sem preencher.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fc83b2f-dcd8-44c2-a90f-dbe7dd994396",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

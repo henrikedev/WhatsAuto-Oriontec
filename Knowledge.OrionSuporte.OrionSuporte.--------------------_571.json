@@ -1,0 +1,53 @@
+{
+  "id": "87572ecf-ba3b-4d15-82a3-a187e653c86e",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_571",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este problema acesse o módulo de Controle de Pessoas, em seguida vá em Colaboradores e Cadastro de Colaboradores. Localize o colaborador que está com o bloqueio e dê um duplo clique sobre ele. Em seguida navegue até a aba Comerciais e em Usuário selecione o usuário referente ao colaborador.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nAtenção - MENU FISCAL (F12)\n---------------------------\nO usuário atual do sistema não é um operador de caixa devidamente registrado no Cadastro de Pessoal.\nNão será possível acessar o terminal de venda.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9cf54a4a-cd9a-4dbe-9e76-42df2d591eca",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

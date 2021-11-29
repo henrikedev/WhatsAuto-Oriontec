@@ -1,0 +1,53 @@
+{
+  "id": "7c517192-6989-408e-b1c6-b9630ac97ccb",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_522",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro primeiramente verifique para qual estado está sendo emitida a nota fiscal. Em seguida acesse as informações de impostos dos produtos que estão inseridos na nota fiscal através do módulo de Controle de Produtos na aba Impostos e confira se existe regra tributária cadastrada para o estado a qual o produto está sendo enviado. Caso contrário será necessário cadastrar uma regra tributária. Lembrando que as informações devem ser coletadas com sua contabilidade.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nErro ao tentar gravar os dados:\nCST PIS inválido.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2085902f-20cb-4899-9b90-ae62313aee79",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2a91bdb6-6aaf-4a19-8ae5-ecbca0bfbe84",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_259",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro será necessário verificar para qual tipo de destinatário está sendo emitida a nota. Se for para pessoa jurídica será necessário inserir a Inscrição Estadual no cadastro de pessoas, limpar as informações do destinatário na nota fiscal e adicionar novamente buscando pelo código ou pelo nome para que o sistema atualize a IE. Em seguida reenviar a nota para a receita.\nCaso o destinatário seja pessoa física acesse a aba Outras Inf. e mude o Tipo de Consumidor para Final - Não Contribuinte.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "-------------------------------------------------------\n##### Informações sobre o Destinatário #####\n-> Se o tipo de consumidor da nota for \"Contribuinte ICMS\" a inscrição estadual deve ser preenchida.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "672d5bd9-79c9-4c97-a1bd-83248c191e02",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

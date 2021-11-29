@@ -1,0 +1,53 @@
+{
+  "id": "bd7dd710-692f-469a-b333-42b965e60be8",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_403",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro você precisará abrir a nota fiscal que está tentando enviar para a receita, ir até a aba Produtos e conferir produto a produto o motivo do ICMS desonerado. Para isso basta selecionar o produto, clicar em Editar e ir até a aba Tributos. Caso tenha dúvidas de qual motivo colocar no ICMS Desonerado recomendo conferir com sua contabilidade.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro\n---------------------------\nO arquivo XML gerado não foi validado.\nErro na validação XML: \n - O elemento 'http://www.portalfiscal.inf.br/nfe:motDesICMS' é inválido - O valor '' é inválido dependendo do tipo de dados 'String' - Falha na restrição Enumeration.\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8afe59d4-e584-4b58-a7ea-788996bc9a16",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "f36bebbe-ef4c-41d0-9476-f628cba09322",
+  "name": "Knowledge.OrionSuporte.OrionSuporte.--------------------_79",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Para corrigir este erro acesse o módulo Caixa e vá até Configurações. Em seguida clique na aba Caderneta e marque a opção Permitir múltiplas formas de pagamento ao utilizar Caderneta.\n\nCaso essa solução resolva o seu problema digite \"Resolvido\" para que eu possa saber que deu certo. Caso contrário digite \"Não resolveu\"."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "---------------------------\nErro - MENU FISCAL (F12)\n---------------------------\nO valor da forma de pagamento Caderneta deve ser igual ao valor total do cupom fiscal\n---------------------------\nOK   \n---------------------------",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9618f23-b0dc-433d-b607-9791ba1b92a5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
